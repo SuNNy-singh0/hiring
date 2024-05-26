@@ -1,0 +1,186 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.table th,
+.table td {
+  margin-top: 20px;
+  padding: 8px;
+  border: 1px solid white;
+}
+.fg{
+  text-align: center;
+}
+.table th {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.table td {
+  text-align: left;
+}
+.mainpage{
+  background: url('/public/image/mainback.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.mainpage h1{
+  color: white;
+  font-size: 3rem;
+}
+.btn1{
+  background: greenyellow;
+  color: black;
+  padding: 10px 40px;
+  font-size: 1.8rem;
+  float: left;
+  margin-left: 150px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.btn3{
+  background: greenyellow;
+  color: black;
+  padding: 10px 40px;
+  font-size: 1.8rem;
+  float: left;
+  margin-left: 600px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.btn2{
+  background: lightcoral;
+  color: black;
+  padding: 10px 40px;
+  font-size: 1.8rem;
+  float: right;
+  margin-right: 150px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.loginuser h1 {
+  font-size: 1.8rem;
+  color: green;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.loginuser label {
+  font-size: 1.4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  margin: 30px 10px;
+}
+.loginuser input{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.loginuser p {
+  font-size: 2rem;
+  color: black;
+}
+.btn4{
+  margin-right: -526px;
+  margin-top: -607px;
+}
+.close {
+  font-size: 1.5rem;
+  color: black;
+  cursor: pointer;
+  float: right;
+  background: url('/public/image/cross.png');
+  background-size: contain;
+  padding: 20px 20px;
+  border: none;
+}
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.radio-group label {
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+.tender label {
+
+  font-size: 1.5rem;
+  color: darkblue;
+  margin-right: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  line-height: 100px;
+}
+
+.tender input,
+textarea {
+  overflow: hidden;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 400;
+  margin: 15px 0px;
+  box-shadow: 2px 2px 2px 2px lightblue;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+.seller{
+  text-align: center;
+}
